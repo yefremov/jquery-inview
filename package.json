@@ -1,0 +1,35 @@
+{
+    "name": "jquery-inview",
+    "title": "jQuery inView Plugin",
+    "description": "A small plugin to determine the position of the element on the viewport",
+    "version": "0.1.0",
+    "homepage": "https://github.com/yefremov/jquery-inview",
+    "author": {
+        "name": "Anton Yefremov",
+        "email": "anton.yefremov@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/yefremov/jquery-inview.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yefremov/jquery-inview/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "volo": "0.2.6",
+        "uglify-js": "2.2.2",
+        "jshint": "0.9.1"
+    },
+    "keywords": [
+        "jquery",
+        "inview",
+        "plugin"
+    ]
+}

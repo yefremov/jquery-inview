@@ -1,0 +1,20 @@
+/*jslint node: true */
+'use strict';
+
+module.exports = {
+  'build': {
+    'run': function ( d, v ) {
+      var q = v.require( 'q' );
+
+      q.call(function () {
+        v.rm( 'jquery.inview.min.js' );
+        return v.spawn( 'jshint', ['jquery.inview.js'] );
+      }).then(function ( valid ) {
+        v.spawn( 'uglifyjs', ['-o', 'jquery.inview.min.js', 'jquery.inview.js'] );
+        return valid;
+      }).then(function ( valid ) {
+        d.resolve( valid );
+      }, d.reject );
+    }
+  }
+};
