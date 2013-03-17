@@ -1,6 +1,6 @@
 # jQuery inView Plugin
 
-A small plugin to determine the position of the element on the viewport.
+A small plugin to determine the position of the element on the viewport.  
 
 Plugin has AMD (Asynchronous Module Definition) support.
 
